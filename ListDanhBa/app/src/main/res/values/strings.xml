@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ListDanhBa</string>
+    <string name="input_name">Nhập tên</string>
+    <string name="input_number">Nhập số đt</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="add_contact">add contact</string>
+</resources>
