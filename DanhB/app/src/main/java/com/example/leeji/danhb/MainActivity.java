@@ -140,30 +140,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-//                View viewdialog = LayoutInflater.from(MainActivity.this).inflate(R.layout.update_layout,null,false);
-//                AlertDialog.Builder alertDialog =new AlertDialog.Builder(MainActivity.this);
-//                alertDialog.setView(viewdialog);
-//
-//                Button btnSaveUpdate = viewdialog.findViewById(R.id.btn_save_update);
-//                Button btnCancelUpdate = viewdialog.findViewById(R.id.btn_save_update);
-//
-//
-//                btnSaveUpdate.setOnClickListener(new View.OnClickListener() {
-//                    @Override
-//                    public void onClick(View view) {
-//                        intentUpdate(position);
-//                    }
-//                });
-//                btnCancelUpdate.setOnClickListener(new View.OnClickListener() {
-//                    @Override
-//                    public void onClick(View view) {
-//                        onBackPressed();
-//                    }
-//                });
-//                alertDialog.show();
-//            }
-//
-//        });
 
         btnDelete.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -179,14 +155,6 @@ public class MainActivity extends AppCompatActivity {
         });
         alertDialog.show();
     }
-
-//    private void intentUpdate(int position){
-//        View viewdialog = LayoutInflater.from(MainActivity.this).inflate(R.layout.update_layout,null,false);
-//        AlertDialog.Builder alertDialog =new AlertDialog.Builder(MainActivity.this);
-//        alertDialog.setView(viewdialog);
-//
-//        alertDialog.show();
-//    }
 
 
     public void showDialogConfirm(final int position){
